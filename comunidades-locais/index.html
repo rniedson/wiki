@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Python Brasil-Comunidades Locais</title>
+
+    <!-- Favicon -->
+    <link href="https://python.org.br/theme/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://python.org.br/theme/css/pybr.min.css" rel="stylesheet">
+    <link href="https://python.org.br/theme/css/pygment.css" rel="stylesheet">
+
+
+    <script>
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-62093919-3', 'auto');
+    ga('require', 'linkid');
+    ga('send', 'pageview');
+
+
+    </script>
+  </head>
+
+  <body>
+
+    <div class="master-wrapper blue-top-border">
+      <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand" href="https://python.org.br/">Python Brasil</a>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Impressione-se
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://python.org.br/empresas">Empresas</a>
+                      <a class="dropdown-item" href="https://python.org.br/projetos">Projetos Brasileiros</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Inicie-se
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://python.org.br/qual-python">Qual Python?</a>
+                      <a class="dropdown-item" href="https://www.python.org/downloads/">Download do python</a>
+                      <a class="dropdown-item" href="https://python.org.br/instalacao-linux">Instalação Linux</a>
+                      <a class="dropdown-item" href="https://python.org.br/instalacao-mac">Instalação Mac</a>
+                      <a class="dropdown-item" href="https://python.org.br/instalacao-windows">Instalação Windows</a>
+                      <a class="dropdown-item" href="https://python.org.br/introducao">Introdução</a>
+                      <a class="dropdown-item" href="https://python.org.br/ferramentas">Ferramentas</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Aprenda mais
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://python.org.br/web">Web</a>
+                      <a class="dropdown-item" href="https://python.org.br/mobile">Mobile</a>
+                      <a class="dropdown-item" href="https://python.org.br/games">Games</a>
+                      <a class="dropdown-item" href="https://python.org.br/cientifico">Científico</a>
+                      <a class="dropdown-item" href="https://python.org.br/wiki">Wiki</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Participe
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="https://python.org.br/lista-de-discussoes">Lista de Discussões</a>
+                      <a class="dropdown-item" href="https://python.org.br/comunidades-locais">Comunidades Locais</a>
+                      <a class="dropdown-item" href="https://python.org.br/pyladies">Pyladies</a>
+                      <a class="dropdown-item" href="https://python.org.br/eventos">Eventos</a>
+                      <a class="dropdown-item" href="https://python.org.br/contribua">Contribua</a>
+                      <a class="dropdown-item" href="https://python.org.br/traducao">Tradução</a>
+                </div>
+              </li>
+          </div>
+
+          <div class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  APyB
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://python.org.br/apyb">A APyB</a>
+                    <a class="dropdown-item" href="https://python.org.br/python-brasil">Python Brasil</a>
+                    <a class="dropdown-item" href="https://python.org.br/cdc">Código de Conduta</a>
+                    <a class="dropdown-item" href="https://python.org.br/premio-dorneles-tremea">Prêmio Dorneles Treméa</a>
+                    <a class="dropdown-item" href="https://python.org.br/apyb-faq">FAQ</a>
+                    <a class="dropdown-item" href="https://python.org.br/apyb-historia">História da APyB</a>
+                </div>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+
+      <main>
+  <div class="container">
+
+    <div class="row page-content">
+      <div class="offset-md-2 col-md-8 col-sm-12">
+        <h1>Comunidades Locais</h1>
+
+        <p>Conheça os grupos de usuários de Python espalhados pelo Brasil.  Mais informações, acesse: <a href="http://wiki.python.org.br/GrupoDeUsuarios">http://wiki.python.org.br/GrupoDeUsuarios</a></p>
+      </div>
+    </div>
+
+  <div class="row thumbnail-container">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-Al">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-Al</h3>
+
+            <p>Grupo de usuários de Alagoas</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-al">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-BA">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-BA</h3>
+
+            <p>Grupo de usuários da Bahia</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-ba">Google Groups</a>
+                <a class="badge badge-default" href="http://www.meetup.com/pt/Salvador-Python-Meetup/">Meetup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-Campinas">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-Campinas</h3>
+
+            <p>Grupo de usuários de Campinas-SP</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://t.me/joinchat/BCCTWj_O8w9uJKNSoEuaVA">Telegram</a>
+                <a class="badge badge-default" href="https://www.meetup.com/pt-BR/GruPy-Campinas/">Meetup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/grupy-df.png" alt="GruPy-DF">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-DF</h3>
+
+            <p>Grupo de usuários do Distrito Federal</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-df">Google Groups</a>
+                <a class="badge badge-default" href="http://df.python.org.br/">Site</a>
+                <a class="badge badge-default" href="https://github.com/grupydf/">Github</a>
+                <a class="badge badge-default" href="https://www.meetup.com/pt-BR/pythondf/">Meetup</a>
+                <a class="badge badge-default" href="https://t.me/grupydf">Telegram</a>
+                <a class="badge badge-default" href="https://www.facebook.com/groups/grupydf/about/">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-ES">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-ES</h3>
+
+            <p>Grupo de usuários do Espírito Santo</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy_es">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/python-goias.png" alt="GruPy-GO">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-GO</h3>
+
+            <p>Grupo de usuários de Goiás</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-go">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-PB">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-PB</h3>
+
+            <p>Grupo de usuários da Paraíba</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-pb">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/grupypr.png" alt="GruPy-PR">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-PR</h3>
+
+            <p>Grupo de usuários do Paraná</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-pr">Google Groups</a>
+                <a class="badge badge-default" href="https://github.com/GruPyPR">Github</a>
+                <a class="badge badge-default" href="https://grupypr.mobilize.io/registrations/groups/3334">Mobilize</a>
+                <a class="badge badge-default" href="http://grupypr.herokuapp.com/">Slack</a>
+                <a class="badge badge-default" href="https://telegram.me/joinchat/AKcLJQkMbfHhN6LOju_s9g">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/grupy-rn.png" alt="GruPy-RN">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-RN</h3>
+
+            <p>Grupo de usuários do Rio Grande do Norte</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://t.me/GrupyRN">Telegram</a>
+                <a class="badge badge-default" href="https://github.com/GruPy-RN">GitHub</a>
+                <a class="badge badge-default" href="https://www.facebook.com/grupyrn/">Facebook</a>
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-rn">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-RO">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-RO</h3>
+
+            <p>Grupo de usuários de Rondônia</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-ro">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="GruPy-RP">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-RP</h3>
+
+            <p>Grupo de usuários de Ribeirão Preto</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://grupyrp.herokuapp.com">Slack</a>
+                <a class="badge badge-default" href="http://www.meetup.com/pt/grupy-rp/">Meetup</a>
+                <a class="badge badge-default" href="https://github.com/grupyrp">Github</a>
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-rp">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/grupy-sanca.png" alt="grupy-sanca">
+
+          <div class="caption">
+            <h3 class="text-center">grupy-sanca</h3>
+
+            <p>Grupo de usuários Python de São Carlos (SP)</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://github.com/grupy-sanca/">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/grupysanca">Facebook (página)</a>
+                <a class="badge badge-default" href="https://www.facebook.com/groups/grupysanca">Facebook (grupo)</a>
+                <a class="badge badge-default" href="https://meetup.com/grupy-sanca">Meetup</a>
+                <a class="badge badge-default" href="https://t.me/grupysanca">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/grupysp.png" alt="GruPy-SP">
+
+          <div class="caption">
+            <h3 class="text-center">GruPy-SP</h3>
+
+            <p>Grupo de usuários de São Paulo</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-sp">Google Groups</a>
+                <a class="badge badge-default" href="https://github.com/grupy-sp/encontros">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/grupysp">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/grupysp">Twitter</a>
+                <a class="badge badge-default" href="https://grupysp.herokuapp.com">Slack</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="Pug-Am">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-Am</h3>
+
+            <p>Grupo de usuários de Amazonas</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/grupy-am">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pug-ce.png" alt="Pug-CE">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-CE</h3>
+
+            <p>Grupo de usuários do Ceará</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/pug-ce">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pug-ma.png" alt="Pug-MA">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-MA</h3>
+
+            <p>Grupo de usuários do Maranhão</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/pug-ma">Google Groups</a>
+                <a class="badge badge-default" href="https://github.com/pug-ma">Github</a>
+                <a class="badge badge-default" href="https://t.me/pugma">Telegram</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pugmaranhao/">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/python-mg.png" alt="Pug-MG">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-MG</h3>
+
+            <p>Grupo de usuários de Minas Gerais</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="http://http://pythonmg.com.br/">Site</a>
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/python-mg">Google Groups</a>
+                <a class="badge badge-default" href="https://github.com/python-mg">Github</a>
+                <a class="badge badge-default" href="https://twitter.com/pythonMG">Twitter</a>
+                <a class="badge badge-default" href="https://www.youtube.com/c/PythonMinasGerais">Youtube</a>
+                <a class="badge badge-default" href="http://www.meetup.com/pt/Belo-Horizonte-Python-User-Group/">Meetup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pug-pe.png" alt="Pug-PE">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-PE</h3>
+
+            <p>Grupo de usuários de Pernambuco</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/pug-pe">Google Groups</a>
+                <a class="badge badge-default" href="http://pycon.pug.pe/XLI/">Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pug-pi.png" alt="Pug-PI">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-PI</h3>
+
+            <p>Grupo de usuários do Piauí</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://www.facebook.com/groups/pugpi/">Facebook</a>
+                <a class="badge badge-default" href="https://t.me/pugpi">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="Pug-SC">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-SC</h3>
+
+            <p>Grupo de usuários de Santa Catarina</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://br.groups.yahoo.com/neo/groups/pug-sc/info">Yahoo Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pug-se.png" alt="Pug-SE">
+
+          <div class="caption">
+            <h3 class="text-center">Pug-SE</h3>
+
+            <p>Grupo de usuários de Sergipe</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/pug-se">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="Pydata BSB">
+
+          <div class="caption">
+            <h3 class="text-center">Pydata BSB</h3>
+
+            <p>Comunidade do programa educacional PyData de Brasília</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://twitter.com/PyDataBSB">Twitter</a>
+                <a class="badge badge-default" href="https://www.meetup.com/pt-BR/PyData-Brasilia/">Meetup</a>
+                <a class="badge badge-default" href="https://t.me/PyDataBSB">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="PyNorte">
+
+          <div class="caption">
+            <h3 class="text-center">PyNorte</h3>
+
+            <p>Grupo de usuários da Região Norte do Brasil</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="http://pynorte.python.org.br/">Site</a>
+                <a class="badge badge-default" href="http://facebook.com/pynorte">Facebook</a>
+                <a class="badge badge-default" href="http://bit.ly/pynorte">Telegram</a>
+                <a class="badge badge-default" href="https://github.com/PyNorte">GitHub</a>
+                <a class="badge badge-default" href="https://groups.google.com/d/forum/pynorte">Google Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pytche.png" alt="PyTche">
+
+          <div class="caption">
+            <h3 class="text-center">PyTche</h3>
+
+            <p>Grupo de usuários do Rio Grande do Sul</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/pytche">Google Groups</a>
+                <a class="badge badge-default" href="http://www.meetup.com/pt/PyTche/">Meetup</a>
+                <a class="badge badge-default" href="https://telegram.me/pytche">Telegram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="Python Floripa">
+
+          <div class="caption">
+            <h3 class="text-center">Python Floripa</h3>
+
+            <p>Grupo de usuários de Florianópolis</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="http://floripa.sc.python.org.br/">Site</a>
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/python-floripa">Google groups</a>
+                <a class="badge badge-default" href="https://plus.google.com/communities/103743339273138251517">Google Plus</a>
+                <a class="badge badge-default" href="https://github.com/PythonFloripa">Github</a>
+                <a class="badge badge-default" href="https://www.facebook.com/groups/python.floripa/">Facebook</a>
+                <a class="badge badge-default" href="https://twitter.com/pythonfloripa">Twitter</a>
+                <a class="badge badge-default" href="https://pythonfloripa.slack.com/">Slack</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/pythonrio.png" alt="PythonOnRio">
+
+          <div class="caption">
+            <h3 class="text-center">PythonOnRio</h3>
+
+            <p>Grupo de usuários do Rio de Janeiro</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="http://pythonrio.python.org.br/">Site</a>
+                <a class="badge badge-default" href="https://www.facebook.com/pythonrio">Facebook</a>
+                <a class="badge badge-default" href="https://t.me/PythonRio">Telegram</a>
+                <a class="badge badge-default" href="https://twitter.com/pythonrio">Twitter</a>
+                <a class="badge badge-default" href="https://br.groups.yahoo.com/neo/groups/pythonrio/info">Yahoo Groups</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="thumbnail">
+          <img src="https://python.org.br/images/comunidades-locais/default.png" alt="Python Sorocaba">
+
+          <div class="caption">
+            <h3 class="text-center">Python Sorocaba</h3>
+
+            <p>Grupo de usuários de Sorocaba</p>
+
+            <div class="badge-group">
+                <a class="badge badge-default" href="https://groups.google.com/forum/#!forum/python-sorocaba">Google Groups</a>
+                <a class="badge badge-default" href="https://github.com/python-sorocaba">Github</a>
+                <a class="badge badge-default" href="https://grupopythonsorocaba.herokuapp.com">Slack</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h3>Sobre</h3>
+              <p>Este site busca reunir todo o conteúdo produzido e traduzido pela comunidade brasileira bem como informações relevantes em relação a mesma.</p>
+            </div>
+
+            <div class="col-12 col-md-4 offset-md-2 col-lg-4 offset-lg-4">
+              <h3>Social</h3>
+
+              <ul>
+                  <li><a href="https://github.com/pythonbrasil"><icon class="fa fa-github"></icon> GitHub</a></li>
+                  <li><a href="https://twitter.com/pythonbrasil"><icon class="fa fa-twitter"></icon> Twitter</a></li>
+                  <li><a href="https://www.facebook.com/groups/python.brasil"><icon class="fa fa-facebook-official"></icon> Facebook</a></li>
+                  <li><a href="https://groups.google.com/forum/#!forum/python-brasil"><icon class="fa fa-users"></icon> Lista de Discussões</a></li>
+                  <li><a href="https://telegram.me/joinchat/AG9QCDwzQzvM4tx8Chp-nQ"><icon class="fa fa-paper-plane"></icon> Telegram</a></li>
+              </ul>
+            </div>
+        </div>
+      </footer>
+
+      <script src="https://python.org.br/theme/js/jquery.min.js"></script>
+      <script src="https://python.org.br/theme/js/tether.min.js"></script>
+      <script src="https://python.org.br/theme/js/bootstrap.min.js"></script>
+
+    </div>
+  </body>
+</html>
